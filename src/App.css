@@ -1,6 +1,26 @@
 .App {
   min-height: 100vh;
+  
+}
+html {
   background-image: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+
+}
+
+.title-name {
+  border: 0px solid black;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgb(71,71,71) ;
 }
 
 .search-form {
@@ -14,6 +34,7 @@
   width: 50%;
   border: none;
   padding: 10px;
+  text-align: center;
 }
 
 .search-button {
@@ -27,4 +48,6 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  
 }
+

@@ -36,6 +36,9 @@ const App = () => {
 
   return (
     <div classname="App">
+       <div className="title">
+        <h1 className="title-name">Profusion Recipes</h1>
+      </div>
       <form onSubmit={getSearch} className="search-form">
         <input className="search-bar" type="text" value={search} onChange={updateSearch} />
         <button className="search-button" type="submit">
